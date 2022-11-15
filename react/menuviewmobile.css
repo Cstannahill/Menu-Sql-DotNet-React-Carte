@@ -1,0 +1,267 @@
+.menu-list-body {
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.menu-item-img {
+    height: 15vw;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.food-type-label {
+    font-size: 11px;
+}
+.menu-item-mod-card {
+    width: 90%;
+    border: 1px solid silver;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ing-quan-btn {
+    font-size: small;
+}
+.menu-item-card-desc {
+    font-size: medium;
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.menu-item-card {
+    border: 1px solid silver;
+    margin-bottom: 2px;
+    width: 100%;
+    padding-top: 10px;
+    height: auto;
+}
+div.menu-accordion-card {
+    padding: 5px;
+}
+
+.menu-search-button {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 0.5px;
+}
+.menu-order-item-search-container {
+    position: fixed;
+    top: 1px;
+    width: 70%;
+    right: 15%;
+
+    z-index: 15;
+}
+
+.close-all-menus {
+    font-size: 30px;
+    padding-top: 1px;
+}
+
+.search-menu-input {
+    width: 75%;
+}
+
+.add-menu-item-cart {
+    margin-top: auto;
+}
+
+.view-cart-offcanvas {
+    display: flex;
+}
+.menu-section-accordion > .accordion-button {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media (min-width: 100px) and (max-width: 766px) {
+    .menu-item-img {
+        height: 40vw;
+        width: 100%;
+        display: flex;
+        object-fit: cover;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .accordion-body {
+        padding: 0;
+    }
+    .menu-list-text,
+    .menu-item-card-desc {
+        font-size: 12px;
+    }
+    .menu-order-item-search-container {
+        width: 100%;
+        right: 0;
+    }
+    .search-menu-input,
+    .menu-search-button,
+    .menu-offcanvas-toggle,
+    .close-all-menus {
+        height: 85%;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1300px) {
+    .menu-list-col {
+        font-size: medium;
+        letter-spacing: 1px;
+    }
+    .menu-card-col {
+        display: flex;
+    }
+    .menu-list-body {
+        padding: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .menu-item-card {
+        padding-top: 5px;
+        height: auto;
+        width: 45%;
+    }
+    .menu-order-item-search-container {
+        width: 70%;
+        right: 15%;
+    }
+
+    .menu-search-button {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .menu-item-img {
+        height: 25vw;
+        object-fit: cover;
+    }
+    .menu-item-display-div {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (min-width: 1301px) and (max-width: 1620px) {
+    .menu-list-col {
+        font-size: medium;
+        letter-spacing: 1px;
+    }
+    .search-menu-input {
+        width: 85%;
+    }
+    .search-menu-form {
+        width: 50%;
+    }
+    .menu-item-display-div {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .menu-item-img {
+        object-fit: cover;
+        height: 24vw;
+    }
+    .menu-item-card {
+        padding-top: 5px;
+        height: auto;
+        width: 45%;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+}
+
+@media (min-width: 1621px) and (max-width: 1800px) {
+    .menu-list-col {
+        font-size: large;
+        letter-spacing: 2px;
+    }
+    .menu-item-card {
+        padding-top: 5px;
+        height: auto;
+        width: 45%;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    .menu-item-display-div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-item-img {
+        object-fit: cover;
+        height: 17vw;
+    }
+    .menu-list-body {
+        font-size: medium;
+        padding: 0;
+        margin: 0;
+    }
+    .search-menu-input {
+        width: 85%;
+    }
+    .search-menu-form {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1800px) {
+    .menu-list-col {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .menu-section-accordion > .accordion-button {
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    .menu-card-col {
+        display: flex;
+        justify-content: space-around;
+    }
+    .menu-item-display-div {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .menu-item-card {
+        padding-top: 5px;
+        height: auto;
+        width: 31%;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h3.menu-accordion-header {
+        font-size: 40px;
+    }
+    .org-menu-logo {
+        height: 60px;
+        width: auto;
+    }
+    .menu-list-body {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        font-size: large;
+        height: auto;
+        min-height: 300px;
+    }
+    .search-menu-input {
+        width: 85%;
+    }
+    .search-menu-form {
+        width: 50%;
+    }
+    .menu-search-button {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
